@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Bucket List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌟 My Personal Bucket List 🌟</h1>
+    <p>Dream big, achieve more, and check off your goals!</p>
+  </header>
+
+  <main>
+    <!-- Bucket List Section -->
+    <section>
+      <h2>Bucket List Items</h2>
+      <ul class="bucket-list" style="list-style-type:none;">
+        <!-- List items with class for completed or not-completed -->
+        <li class="bucket-list-item not-completed" onclick="toggleCompletion(this)">
+          <span class="icon">⚪</span> Visit Paris
+        </li>
+        <li class="bucket-list-item not-completed" onclick="toggleCompletion(this)">
+          <span class="icon">⚪</span> Learn Spanish
+        </li>
+        <li class="bucket-list-item not-completed" onclick="toggleCompletion(this)">
+          <span class="icon">⚪</span> Go Skydiving
+        </li>
+        <li class="bucket-list-item not-completed" onclick="toggleCompletion(this)">
+          <span class="icon">⚪</span> Write a Book
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created with ❤️ by [Aritra Adhya]</p>
+  </footer>
+
+  <script src="scripts.js"></script> <!-- Linking the JS file -->
+</body>
+</html>
+
+
+
+
